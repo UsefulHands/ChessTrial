@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pieces">
+      <UniqueIdentifier>{4528ca84-424d-4f83-b9f7-1930c7fd2742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pieces">
+      <UniqueIdentifier>{4bf570f2-80e9-4786-8993-380904df8064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Icons">
+      <UniqueIdentifier>{3aa1c48d-6782-4218-a3ba-21b2070550cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Icons\BlackPieces">
+      <UniqueIdentifier>{3afe8a9f-da21-4500-b33e-1c9ef264ebca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Icons\WhitePieces">
+      <UniqueIdentifier>{11c9b2cc-a0e5-4be6-98f3-18377f97315f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Icons\Boards">
+      <UniqueIdentifier>{7e62aea0-6eb6-472c-a92e-7edb3318a83c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bB.png">
+      <Filter>Header Files\Icons\BlackPieces</Filter>
+    </Image>
+    <Image Include="bK.png">
+      <Filter>Header Files\Icons\BlackPieces</Filter>
+    </Image>
+    <Image Include="bN.png">
+      <Filter>Header Files\Icons\BlackPieces</Filter>
+    </Image>
+    <Image Include="bP.png">
+      <Filter>Header Files\Icons\BlackPieces</Filter>
+    </Image>
+    <Image Include="bQ.png">
+      <Filter>Header Files\Icons\BlackPieces</Filter>
+    </Image>
+    <Image Include="bR.png">
+      <Filter>Header Files\Icons\BlackPieces</Filter>
+    </Image>
+    <Image Include="wB.png">
+      <Filter>Header Files\Icons\WhitePieces</Filter>
+    </Image>
+    <Image Include="wK.png">
+      <Filter>Header Files\Icons\WhitePieces</Filter>
+    </Image>
+    <Image Include="wN.png">
+      <Filter>Header Files\Icons\WhitePieces</Filter>
+    </Image>
+    <Image Include="wP.png">
+      <Filter>Header Files\Icons\WhitePieces</Filter>
+    </Image>
+    <Image Include="wR.png">
+      <Filter>Header Files\Icons\WhitePieces</Filter>
+    </Image>
+    <Image Include="wQ.png">
+      <Filter>Header Files\Icons\WhitePieces</Filter>
+    </Image>
+    <Image Include="RelativeToWhite.png">
+      <Filter>Header Files\Icons\Boards</Filter>
+    </Image>
+    <Image Include="4x1board.png">
+      <Filter>Header Files\Icons\Boards</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
